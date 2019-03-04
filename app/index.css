@@ -1,46 +1,4 @@
-Skip
-  to
-  content
-  Pull
-  requests
-  Issues
-  Marketplace
-  Explore
-  @gautamgahlawat
-  Sign
-  out
-  96
-  2,
-409
-  853
-  tylermcginnis/react-fundamentals
-  code
-  Issues
-  1
-  Pull
-  requests
-  0
-  Projects
-  0
-  Wiki
-  Insights
-  react-fundamentals/app/index.css
-  67b8a5c
-  on
-  Aug
-  29,
-2018
-  @tylermcginnis
-  tylermcginnis
-  Updates
-  for
-  react-router
-  98
-  lines
-  (80 sloc)
-  1.24
-  KB
-  body {
+body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
     Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
@@ -74,7 +32,6 @@ li {
   display: block;
   padding: 7px 0;
   margin: 10px auto;
-  transition: all 0.3s;
 }
 
 .button:hover:enabled {
@@ -84,7 +41,7 @@ li {
 }
 
 .button:active {
-  transform: translateY(3px);
+  transform: translateY(1px);
 }
 
 .avatar {
