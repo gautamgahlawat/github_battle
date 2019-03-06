@@ -41,7 +41,8 @@ li {
 }
 
 .button:active {
-  transform: translateY(1px);
+  transform: translateY(3px);
+  transition: all 0.3s;
 }
 
 .avatar {
