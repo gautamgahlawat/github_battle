@@ -32,7 +32,7 @@ function getStarCount(repos) {
 
 // calculate score
 function calculateScore(profile, repos) {
-  var folloers = profile.followers;
+  var followers = profile.followers;
   var totalStars = getStarCount(repos);
   return followers * 3 + totalStars;
 }
