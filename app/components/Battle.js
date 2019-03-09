@@ -53,6 +53,7 @@ class PlayerInput extends React.Component {
   }
 
   render() {
+    console.log(this.props, "he");
     return (
       <form action="" className="column" onSubmit={this.handleSubmit}>
         <label htmlFor="username" className="header">
@@ -119,6 +120,9 @@ class Battle extends React.Component {
   }
 
   render() {
+    console.log(this.props.location.pathname);
+    console.log(this.props);
+
     var match = this.props.match;
     var playerOneName = this.state.playerOneName;
     var playerOneImage = this.state.playerOneImage;
